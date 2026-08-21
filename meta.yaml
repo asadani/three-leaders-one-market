@@ -1,0 +1,96 @@
+# Three Leaders, One Market -- book-forge configuration.
+#
+# Flow mode: this shipped as a single-flow essay page, not a sheet-paginated
+# book. book-forge adds only the copyright plate and the author/QR page.
+
+slug: three-leaders-one-market
+title: "Three Leaders, One Market"
+theme: sheet-oxblood        # only the QR settings are used in flow mode
+
+source:
+  template: book.html.in
+output:
+  html: index.html
+  pdf: three-leaders-one-market.pdf
+
+page:
+  size: Letter
+
+cover:
+  art: assets/three-leaders-one-market-cover.png
+  page: false               # the essay renders its own cover
+  fit: contain
+
+qr:
+  - slot: QR_AUTHOR
+    target: https://anujsadani.in
+  - slot: QR_TECH
+    target: https://tech.anujsadani.in/three-leaders-one-market/
+
+folio:
+  font: IBMPlexMono-Regular.ttf
+  size: 8
+  color: [0.49, 0.52, 0.58]
+  skip_pages: [1]
+
+# Fraunces is delivered by Google Fonts as a variable font, and Chrome prints
+# variable fonts as Type 3 -- unextractable, and unusable for print. These
+# static cuts are inlined after the host's own @font-face rules so they win.
+fonts:
+  anchor: "</style>"
+  inline:
+    - {family: "Fraunces", weight: 400, file: "Fraunces-Regular.woff2"}
+    - {family: "Fraunces", weight: 600, file: "Fraunces-SemiBold.woff2"}
+    - {family: "Fraunces", weight: 800, file: "Fraunces-ExtraBold.woff2"}
+    - {family: "Fraunces", weight: 400, style: italic, file: "Fraunces-Italic.woff2"}
+    - {family: "Fraunces", weight: 600, style: italic, file: "Fraunces-SemiBoldItalic.woff2"}
+
+matter:
+  mode: flow
+  css: true
+  front:
+    heading: "Copyright, permissions, and how this was made"
+    work_line: "Three Leaders, One Market &mdash; three defensible AI strategies in one market, and why all three fail."
+    # No AI-authorship disclosure: this title has no verification workspace and
+    # how it was drafted is not recorded. Set `ai_disclosure: drafted` if true.
+    anchor_before: '<!-- BOOK-FORGE:AFTER-COVER -->'
+    imprint: "First edition &middot; 2026"
+  about:
+    heading: "About the author"
+    anchor_before: '<!-- BOOK-FORGE:BEFORE-END -->'
+    qr_override:
+      - index: 1
+        blurb: "Read this online, and the rest of the shelf."
+        code: "tech.anujsadani.in"
+  colophon_html: |
+    <b>Three Leaders, One Market</b> &mdash; an essay by Anuj Sadani, 2026.<br>
+      Read online: <b>tech.anujsadani.in/three-leaders-one-market</b>
+
+# No licence is stated in the manuscript -- only "(c) 2026 Anuj Sadani".
+# all-rights-reserved renders that faithfully rather than inventing a grant.
+license:
+  id: all-rights-reserved
+
+edition: "First edition"
+date: 2026
+
+links:
+  read_online: https://tech.anujsadani.in/three-leaders-one-market/
+  kofi: https://ko-fi.com/s/b7efb1eb2e
+
+verify:
+  cover_probes: ["Three Leaders"]
+  body_probes:
+    - "strategy"
+    - "market"
+  matter_probes:
+    - "Copyright, permissions"
+    - "About the author"
+  # The manuscript links Google Fonts; if they fail to load the render falls
+  # back to Liberation/DejaVu, which is what damaged the shipped PDF.
+  allow_system_fonts: false
+  baseline_stale: "the shipped June PDF predates the manuscript; the byline
+    still reads asadani.tech, which the source renamed to anujsadani.in"
+  min_images: 0
+  expect_pages: 15
+  page_tolerance: 6
