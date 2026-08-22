@@ -2,3 +2,6 @@ __pycache__/
 .bf-cache/
 *.staged
 *.new.pdf
+
+# The typeset PDF is sold on Ko-fi, not distributed from this repository.
+*.pdf

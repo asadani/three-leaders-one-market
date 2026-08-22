@@ -7,9 +7,9 @@
 <p align="center">
   <strong><a href="https://tech.anujsadani.in/three-leaders-one-market/">Read online</a></strong>
   &nbsp;&middot;&nbsp;
-  <strong><a href="three-leaders-one-market.pdf">Download the PDF</a></strong>
+  <strong><a href="https://ko-fi.com/s/b7efb1eb2e">Get the PDF on Ko-fi</a></strong>
   &nbsp;&middot;&nbsp;
-  <a href="https://ko-fi.com/s/b7efb1eb2e">Typeset edition on Ko-fi</a>
+  <a href="https://ko-fi.com/anujsadani/shop">All the books</a>
 </p>
 
 ---
@@ -20,7 +20,7 @@ A field report on good-faith failure: three experienced leaders, three defensibl
 
 | File | What it is |
 |---|---|
-| [`three-leaders-one-market.pdf`](three-leaders-one-market.pdf) | The typeset edition, 17pp. |
+| Typeset PDF | The typeset edition, 17pp. Sold on [Ko-fi](https://ko-fi.com/s/b7efb1eb2e); not in this repository. |
 | [`index.html`](https://tech.anujsadani.in/three-leaders-one-market/) | The full text as one self-contained page. Read it online rather than as source. |
 | `book.html.in` | The manuscript. Built by [book-forge](https://github.com/asadani/book-forge). |
 | `meta.yaml` | Build configuration: cover, licence, front and back matter. |
