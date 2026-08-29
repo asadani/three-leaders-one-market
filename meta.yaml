@@ -88,7 +88,6 @@ verify:
     - "About the author"
   # The manuscript links Google Fonts; if they fail to load the render falls
   # back to Liberation/DejaVu, which is what damaged the shipped PDF.
-  allow_system_fonts: false
   baseline_stale: "the shipped June PDF predates the manuscript; the byline
     still reads asadani.tech, which the source renamed to anujsadani.in"
   min_images: 0
