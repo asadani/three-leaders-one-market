@@ -1,0 +1,13 @@
+Notes & Sources.
+
+The three leaders are composites, drawn from recurring patterns I have watched across AI programs, not three named firms. The cited statistics are public findings; citation numbers in the text map to them, and exact wording varies by source release.
+
+MIT (Project NANDA), The GenAI Divide: State of AI in Business 2025 (August 2025): ~95% of organizations report no measurable P&L return on generative-AI pilots. nanda.media.mit.edu
+
+Boston Consulting Group, Where's the Value in AI?: the 10, 20, 70 split of realized AI value (10% algorithms, 20% technology and data, 70% people and process). bcg.com
+
+S&P Global Market Intelligence, enterprise AI survey: 42% of companies abandoned most of their AI initiatives, up from 17% the prior year. spglobal.com
+
+Analyst surveys on agentic-AI adoption (2023, 2025) and the Gartner AI Hype Cycle, the year-over-year shift in what enterprises pursued (chatbots, then retrieval, then agents, then defensibility), evidence that the market's definition of success kept relocating. gartner.com
+
+© 2026 Anuj Sadani. A story on three good-faith AI strategies that all failed, and the moving target underneath them. Read the Overture for the argument; read the sections for the evidence.

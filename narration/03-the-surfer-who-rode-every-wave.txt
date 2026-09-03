@@ -1,0 +1,9 @@
+The Surfer, Who Rode Every Wave.
+
+The Surfer did the thing everyone says to do in a fast-moving field: stay current. It still did not work.
+
+The Surfer's instinct was defensible and, in isolation, admirable. AI was moving faster than any technology in memory, so the Surfer kept the company on the frontier: adopting each new model the week it shipped, re-architecting around the latest paradigm, chasing every benchmark that moved. There was always fresh data to justify the next pivot, and a board that read the same headlines and applauded the company for not falling behind. Energy was high. The roadmap was always exciting.
+
+The failure was not in any single move. Each was reasonable. The failure was that constant change let nothing compound. A data flywheel needs time turning to build an edge. An evaluation suite gets valuable only as it accumulates. A workflow earns trust by staying stable long enough for people to rely on it. The Surfer reset all of that every quarter, so the company was permanently three months into everything and finished with nothing. The team developed whiplash, the budget drained into migrations, and the one thing the constant motion never produced was a durable advantage. Worth remembering that BCG put roughly 70% of AI value in people, process, and proprietary data, the parts that only compound with time, and only about 10% in the model itself. The Surfer kept swapping the 10% and never let the 70% accrue.
+
+Calling the Surfer a hype-chaser is the easy verdict and the wrong one. The Surfer was responding rationally to a real signal, that the frontier was moving fast. The mistake was treating speed of change as the thing to match, rather than something to absorb selectively. Sincere, defensible, and fatal.

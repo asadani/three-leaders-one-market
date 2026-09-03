@@ -1,0 +1,9 @@
+The Moving Target.
+
+Hold the three failures together and the shared cause is not in any of the leaders. It is in the ground they stood on.
+
+What actually changed underneath all three was the market's definition of winning. The bar did not just rise, it kept relocating. Early on, having a chatbot at all was credible. Then the credible thing was retrieval and copilots. Then it was agents in production. Then it was a defensible edge a foundation model could not erase. Each shift invalidated a strategy that had been correct against the previous bar, and each shift arrived before the last one had been fully answered.
+
+This relocation was not gentle, and it was widely felt. The share of enterprises chasing agentic approaches jumped from roughly a quarter to two-thirds in a single year as the consensus moved. By 2025, 42% of companies had abandoned most of their AI initiatives, up from 17% a year earlier, much of it the sound of strategies being scrapped because the target had moved out from under them. When the definition of success changes every year, no fixed strategy is safe, because the thing that made it correct keeps expiring.
+
+The goalposts did not only move. They moved faster than any one bet could be carried to them.

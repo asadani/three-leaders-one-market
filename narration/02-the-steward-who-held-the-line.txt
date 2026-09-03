@@ -1,0 +1,9 @@
+The Steward, Who Held the Line.
+
+The Steward ran the strategy that every responsible playbook recommended. That is exactly why it is the hardest failure to see coming.
+
+Give the Steward full credit, because the approach was textbook and the textbook was good. A clear AI strategy, a center of excellence to concentrate scarce talent, governance so the company would not do something reckless, and a disciplined sequence of pilots gated on return before anything scaled. This is the method that absorbed cloud, mobile, and enterprise software into the business without disaster. Consultants endorsed it. Peer companies ran the same play. The board approved it precisely because it was the safe, proven path.
+
+It failed for a reason that had nothing to do with effort. The proven playbook assumes the technology behaves like the last one: fixed at purchase, measurable in a quarter, scaled once the return is clear. A capability that improves only with use, whose value the market keeps redefining, does not fit that frame, so the gates rejected the very bets that needed time, and the program produced motion rather than shipped decisions. This is the base rate, not bad luck. MIT's 2025 study found 95% of organizations getting no measurable return on their generative-AI pilots. The Steward was median, running the method that used to guarantee not being median.
+
+The cruelty of it is that the Steward could not have been faulted in advance. Holding the proven line is what good stewardship had always meant. The line simply stopped being where the value was.
